@@ -1,0 +1,8 @@
+@@ -234,6 +234,7 @@
+ static int xerrordummy(Display *dpy, XErrorEvent *ee);
+ static int xerrorstart(Display *dpy, XErrorEvent *ee);
+ static void zoom(const Arg *arg);
++static void autostart_exec(void);
+ 
+ /* variables */
+ static const char broken[] = "broken";
